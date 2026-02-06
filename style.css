@@ -34,8 +34,8 @@ body * {
 }
 
 #container {
-    width: 360px;
-    /*border: 1px solid red;*/
+    width: 100%;
+    max-width: 588px;
     margin: 56px auto 0px;
     padding: 0 24px;
 }
@@ -105,8 +105,6 @@ ul {
 }
 
 ul li a{
-    /*border: 1px solid red;*/
-
     display: flex;
     justify-content: center;
     align-items: center;
